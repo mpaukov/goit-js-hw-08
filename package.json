@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://mpaukov.github.com/goit-js-hw-08",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/*.html --port 6850",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
@@ -23,5 +23,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "simplelightbox": "^2.10.1"
   }
 }
